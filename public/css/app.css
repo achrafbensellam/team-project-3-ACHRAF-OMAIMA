@@ -59,6 +59,7 @@
 .firstSection{
     display: flex;
     gap: 7%;
+    margin-top: 1.5%;
 }
 .firstSectionDigital{
     color: gray;
@@ -91,5 +92,9 @@
 }
 .HeroSectionLINK1{
     text-decoration: none;
+}
+.HeroSectionBTN:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
 }
 /* todo about section */
