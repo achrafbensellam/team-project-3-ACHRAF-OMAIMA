@@ -98,3 +98,16 @@
     
 }
 /* todo about section */
+.div-section{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.div-section2{
+    display: flex;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 250px;
+
+}
