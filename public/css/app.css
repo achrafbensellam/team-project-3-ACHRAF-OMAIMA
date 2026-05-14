@@ -55,7 +55,6 @@
 
 }
 
-<<<<<<< HEAD
 /* todo about section */
 .div-section{
 display: flex;
@@ -70,43 +69,3 @@ flex-direction: column;
     width: 250px;
 
 }
-=======
-/* ! this is the mani */
-.firstSection{
-    display: flex;
-    gap: 7%;
-}
-.firstSectionDigital{
-    color: gray;
-}
-.firstSectionElevate{
-    font-size: 60px;
-    font-weight: bolder ;
-    padding:2.5% 0%;
-}
-.firstSectionCurabitur{
-    font-size:18px;
-    color: gray;
-    padding: 7% 0%;
-}
-.HeroSectionBTNS{
-    display: flex;
-    gap: 3%;
-}
-.HeroSectionBTN{
-    background-color:rgb(139, 185, 35) ;
-    font-weight: bolder;
-    padding: 3%;
-    border-radius: 30px;
-    cursor: pointer;
-    border-style: hidden;
-}
-.HeroSectionLINK{
-    text-decoration: none;
-    padding:3%;
-}
-.HeroSectionLINK1{
-    text-decoration: none;
-}
-/* todo about section */
->>>>>>> 7099f2040c36537c7c02dabd3255df0b5508667b
