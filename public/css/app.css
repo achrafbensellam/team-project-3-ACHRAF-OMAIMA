@@ -312,3 +312,151 @@
 .portfolioLastBTNproject{
     padding-bottom: 1rem;
 }
+/* todo team section */
+.teamSectionMindsP{
+    font-size: 3rem;
+    padding: 1.5% 0%;
+}
+.teamSectionFirstPerson{
+    width: 100%;
+    margin-top:8%;
+}
+.teamSectionFirstPersonPIC{
+    width: 100%;
+}
+.teamSectionFirstPersonOliviaPark{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1% 0%;
+}
+.teamSectionMembers{
+    display: flex;
+    width: 48%;
+    gap: 2%;
+}
+.teamSectionSecondFotherDiv{
+    display: flex;
+    gap: 4%;
+    margin-top: 5rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 8%;
+}
+.teamSectionFirstShildDiv{
+    width: 48%;
+}
+.teamSectionNemo{
+    font-size: 1.3rem;
+    color: rgb(107, 107, 107);
+}
+.teamSectionNumbers{
+    display: flex;
+    border-top: 1px gray solid;
+    margin-top: 7%;
+    padding-top: 5%;
+}
+.teamSectionNumberONE{
+    color: rgb(139, 185, 35);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.teamSectionNumberTwo{
+     color: rgb(139, 185, 35);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+   
+}
+.teamSectionNumberTwoDIV{
+     border-left: 1px solid gray;
+     padding-left: 4%;
+     margin: 0% 15%;
+
+}
+.teamSectionLeadership{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.teamSectionLeadershipMembers{
+    display: flex;
+    gap: 1%;
+    margin-top: 1rem;
+}
+.teamSectionLeadershipFirstMember{
+    width: 33%;
+    border: 1px solid grey;
+}
+.teamSectionLeadershipFirstMemberPIC{
+    width: 100%;
+}
+.teamSectionOperations{
+    color: green;
+    font-weight: bold;
+    padding:2% 0%;
+}
+.teamSectionRachelNguyen{
+    font-weight: bolder;
+    font-size: 1.5rem;
+     padding:2% 0%;
+}
+.RachelIcons{
+    border: 1px solid grey;
+    padding:2% 7% 2% 3%;
+    margin-top:1rem; ;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+.teamSectionRachelNguyenInformation{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.ScrolingBar{
+    background-color: grey;
+    padding: 5px;
+    margin: 5px;
+}
+.ScrolingBars{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+.ScrolingBarUnique{
+    background-color: rgb(43, 242, 16);
+    padding: 0px 15px;
+    margin: 5px;
+}
+.incresflesh{
+    border: 1px grey solid;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamSectionLastDiv{
+    display: flex;
+    width:50%;
+    gap: 20px;
+}
+.teamSectionLastDivFother{
+    display: flex;
+    padding: 2rem;
+     border: 1px solid grey;
+}
+.teamLastBTNBegin {
+    display: flex;
+    gap: 1rem;
+    /* width: 50%; */
+    padding-left: 10rem;
+}
+.teamLastButton{
+    font-weight: bold;
+    background-color: rgb(139, 185, 35);
+    border-radius: 25px;
+    width: 12rem;
+    height: 3rem;
+    border-style: hidden;
+}
