@@ -16,8 +16,9 @@
 
 /* ! this is the header */
 .header {
-    background-color: rgb(74, 76, 105);
+    /* background-color: rgb(74, 76, 105); */
     padding: 20px;
+    background-color: #222330;
     display: flex;
     justify-content: space-between;
     border-radius: 30px;
@@ -151,7 +152,7 @@
     width: 250px;
 
 }
-
+/* todo hero section finished  */
 /* todo portfolio section */
 .portfolioSection {
     margin-top: 6rem;
@@ -295,140 +296,166 @@
     gap: 1rem;
 }
 
-.portfolioLastButton{
+.portfolioLastButton {
     font-weight: bold;
     background-color: rgb(139, 185, 35);
     border-radius: 25px;
     width: 12rem;
     height: 3rem;
     border-style: hidden;
+    cursor: pointer;
 }
-.portfolioLastLink{
-   text-decoration: none;
+
+.portfolioLastLink {
+    text-decoration: none;
 }
-.portfolioLastLinks{
+
+.portfolioLastLinks {
     padding-top: 0.9rem;
 }
-.portfolioLastBTNproject{
+
+.portfolioLastBTNproject {
     padding-bottom: 1rem;
 }
+/* todo portfolio section finished */
 /* todo team section */
-.teamSectionMindsP{
+.teamSectionMindsP {
     font-size: 3rem;
     padding: 1.5% 0%;
 }
-.teamSectionFirstPerson{
+
+.teamSectionFirstPerson {
     width: 100%;
-    margin-top:8%;
+    margin-top: 8%;
 }
-.teamSectionFirstPersonPIC{
+
+.teamSectionFirstPersonPIC {
     width: 100%;
 }
-.teamSectionFirstPersonOliviaPark{
+
+.teamSectionFirstPersonOliviaPark {
     font-weight: bold;
     font-size: 1rem;
     padding: 1% 0%;
 }
-.teamSectionMembers{
+
+.teamSectionMembers {
     display: flex;
     width: 48%;
     gap: 2%;
 }
-.teamSectionSecondFotherDiv{
+
+.teamSectionSecondFotherDiv {
     display: flex;
     gap: 4%;
     margin-top: 5rem;
     border-bottom: 1px solid grey;
     padding-bottom: 8%;
 }
-.teamSectionFirstShildDiv{
+
+.teamSectionFirstShildDiv {
     width: 48%;
 }
-.teamSectionNemo{
+
+.teamSectionNemo {
     font-size: 1.3rem;
     color: rgb(107, 107, 107);
 }
-.teamSectionNumbers{
+
+.teamSectionNumbers {
     display: flex;
     border-top: 1px gray solid;
     margin-top: 7%;
     padding-top: 5%;
 }
-.teamSectionNumberONE{
+
+.teamSectionNumberONE {
     color: rgb(139, 185, 35);
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 2%;
 }
-.teamSectionNumberTwo{
-     color: rgb(139, 185, 35);
+
+.teamSectionNumberTwo {
+    color: rgb(139, 185, 35);
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 2%;
-   
-}
-.teamSectionNumberTwoDIV{
-     border-left: 1px solid gray;
-     padding-left: 4%;
-     margin: 0% 15%;
 
 }
-.teamSectionLeadership{
+
+.teamSectionNumberTwoDIV {
+    border-left: 1px solid gray;
+    padding-left: 4%;
+    margin: 0% 15%;
+
+}
+
+.teamSectionLeadership {
     display: flex;
     justify-content: space-between;
     margin-top: 3%;
 }
-.teamSectionLeadershipMembers{
+
+.teamSectionLeadershipMembers {
     display: flex;
     gap: 1%;
     margin-top: 1rem;
 }
-.teamSectionLeadershipFirstMember{
+
+.teamSectionLeadershipFirstMember {
     width: 33%;
     border: 1px solid grey;
 }
-.teamSectionLeadershipFirstMemberPIC{
+
+.teamSectionLeadershipFirstMemberPIC {
     width: 100%;
 }
-.teamSectionOperations{
+
+.teamSectionOperations {
     color: green;
     font-weight: bold;
-    padding:2% 0%;
+    padding: 2% 0%;
 }
-.teamSectionRachelNguyen{
+
+.teamSectionRachelNguyen {
     font-weight: bolder;
     font-size: 1.5rem;
-     padding:2% 0%;
+    padding: 2% 0%;
 }
-.RachelIcons{
+
+.RachelIcons {
     border: 1px solid grey;
-    padding:2% 7% 2% 3%;
-    margin-top:1rem; ;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
+    padding: 2% 7% 2% 3%;
+    margin-top: 1rem;
 }
-.teamSectionRachelNguyenInformation{
+
+.teamSectionRachelNguyenInformation {
     padding-left: 1rem;
     padding-bottom: 1rem;
 }
-.ScrolingBar{
+
+.ScrolingBar {
     background-color: grey;
-    padding: 5px;
+    padding: 4px 7px;
     margin: 5px;
+    border-radius: 5px;
 }
-.ScrolingBars{
+
+.ScrolingBars {
     display: flex;
     justify-content: center;
     margin: 2rem 0rem;
 }
-.ScrolingBarUnique{
+
+.ScrolingBarUnique {
     background-color: rgb(43, 242, 16);
     padding: 0px 15px;
-    margin: 5px;
+    border-radius: 7px;
+    margin: 0.1px;
 }
-.incresflesh{
+
+.incresflesh {
     border: 1px grey solid;
     width: 50px;
     height: 50px;
@@ -436,27 +463,211 @@
     justify-content: center;
     align-items: center;
 }
-.teamSectionLastDiv{
+
+.teamSectionLastDiv {
     display: flex;
-    width:50%;
+    width: 50%;
     gap: 20px;
 }
-.teamSectionLastDivFother{
+
+.teamSectionLastDivFother {
     display: flex;
     padding: 2rem;
-     border: 1px solid grey;
+    border: 1px solid grey;
 }
+
 .teamLastBTNBegin {
     display: flex;
     gap: 1rem;
     /* width: 50%; */
     padding-left: 10rem;
 }
-.teamLastButton{
+
+.teamLastButton {
     font-weight: bold;
     background-color: rgb(139, 185, 35);
     border-radius: 25px;
     width: 12rem;
     height: 3rem;
     border-style: hidden;
+    cursor: pointer;
 }
+.teamSectionGuidingOurVision{
+    font-size:30px ;
+    font-weight: bolder;
+    padding: 1rem 0rem;
+}
+/* todo team section finished */
+/* todo contact section */
+/* ! trying */
+.ContactTryingFotherDiv{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.trying{
+width: 50%;
+height: 4px;
+background-color: #a3e635;
+     
+}
+.ContactTrying{
+    display: flex;
+   justify-content: center;
+    align-items: center; 
+width: 10%;
+height: 2px;
+background-color: #444;
+ margin:1rem 0rem 2rem 0rem;
+}
+/* ! trying */
+.CONTACT-SECTION {
+    margin-top: 8rem;
+}
+
+/* .sectionContactSPAN1 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1%;
+
+}
+
+.sectionContactSPAN2 {
+    border-bottom: 3px green solid;
+    padding-bottom: 0.95%;
+
+} */
+
+.contactSection {
+    text-align: center;
+}
+
+.contactSectionTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ContactSectionEnvolope {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px gray solid;
+    /* border-bottom: 1px gray solid; */
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.ContactSectionEnvolope1 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    margin: 20px 0px;
+    padding: 35px 0px;
+}
+
+.ContactSectionDrop {
+    display: flex;
+}
+
+.contactSectionGetintouch {
+    display: flex;
+    gap: 6%;
+    margin-top: 5rem;
+}
+
+.contactSectionleftBox {
+    width: 47%;
+}
+
+.contactSectionPara {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 2% 0%;
+}
+
+.contactIcons {
+    margin: 10px 15px 0px 0px;
+}
+
+.contactIconArrow {
+    margin: 15px 0px 0px 0px;
+}
+
+.contactnumbers {
+    display: flex;
+}
+
+.contactReply {
+    color: rgb(139, 185, 35);
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.contactPorsontage {
+    margin-right: 4rem;
+
+}
+
+/* ? form */
+.contactSectionForm {
+    width: 47%;
+    /* height: 36rem; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 27, 40);
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.contactYourName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conversation {
+    padding: 15px 0px;
+    color: grey;
+}
+
+.contactYourNameInput {
+    padding: 1rem 3rem 1rem 0.9rem;
+    background-color: rgb(14, 16, 34);
+    border-radius: 6px;
+    border-color: rgb(249, 245, 245);
+    margin: 1rem 0rem;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+.ContactSubjectInput {
+    padding: 1rem 19.5rem 1rem 0.9rem;
+    background-color: rgb(14, 16, 34);
+    border-radius: 6px;
+    margin: 1rem 0rem;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    border-color: white;
+}
+
+.ContactMessageInput {
+    padding: 1rem 0rem 1rem 0.9rem;
+    background-color: rgb(14, 16, 34);
+    font-size: 0.9rem;
+    font-weight: bolder;
+     border-radius: 6px;
+     border-color: white;
+     margin: 1rem 0rem;
+}
+.contacSectionBTN{
+    background-color: rgb(139, 185, 35);
+    padding: 3% 4%;
+    border-radius: 25px;
+    border-style: hidden;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+/* todo contact section finished */
