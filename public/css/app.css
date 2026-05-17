@@ -13,7 +13,9 @@
     padding: 0% 10%;
 
 }
-
+p{
+    line-height:2rem;
+}
 /* ! this is the header */
 .header {
     /* background-color: rgb(74, 76, 105); */
@@ -46,11 +48,12 @@
     text-decoration: none;
     
 }
-a:hover {
+/* !!!! this is the bigest problem in the world !!!! */
+/* a:hover {
     background-color: rgb(119, 156, 14);
 
-}
-
+} */
+/* !!!! this is the bigest problem in the world !!!! */
 .div-button {
     display: flex;
     border-radius: 20vh;
@@ -126,7 +129,7 @@ a:hover {
 }
 
 .HeroSectionBTN:hover {
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(179, 244, 133, 0.56) 0px 22px 70px 4px;
 
 }
 
@@ -193,7 +196,7 @@ a:hover {
     border-color: white;
     /* padding: 2% 10%; */
     width: 7rem;
-    height: 2.5rem;
+    /* height:rem; */
     margin: 1%;
     border-radius: 25px;
     font-size: 13px;
@@ -461,6 +464,9 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.incresflesh-fotherDIV{
+    margin-top: 4   %;
 }
 
 .teamSectionLastDiv {
@@ -988,13 +994,14 @@ background-color: #444;
     padding-top: 5px; 
     padding: 10px;
 }
-p{
+/* !!! problem !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* p{
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
-}
+ }  */
 
-
+/* !!! problem !!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!! */
 .countainer-div-grand{
     display: flex;
     margin-top: 30px;
@@ -1030,12 +1037,13 @@ p{
     left: 40px;
 }
 
-
-a{
+/* !!!!!biiiig probleeem !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* a{
     display: flex;
     font-weight: bold;
     text-decoration: none;
-}
+} */
+/* !!!!!biiiig probleeem !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .countainer-button{
     display: flex;
