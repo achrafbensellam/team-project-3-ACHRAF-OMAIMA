@@ -16,9 +16,11 @@
 
 /* ! this is the header */
 .header {
+    /* background-color: rgb(74, 76, 105); */
     margin-top: 25px;
     background-color: rgb(74, 76, 105);
     padding: 20px;
+    background-color: #222330;
     display: flex;
     justify-content: space-between;
     border-radius: 30px;
@@ -75,11 +77,13 @@ a:hover {
 
 }
 
-/* ! this is the main */
+/* ! this is the mani */
 .firstSection {
     display: flex;
     gap: 7%;
-    margin-top: 1.5%;
+    margin-top: 10%;
+    border-bottom: solid 1px grey;
+    padding-bottom: 5rem;
 }
 
 .firstSectionDigital {
@@ -104,9 +108,9 @@ a:hover {
 }
 
 .HeroSectionBTN {
-    background-color: rgb(77, 107, 8);
+    background-color: rgb(139, 185, 35);
     font-weight: bolder;
-    padding: 3%;
+    padding:3%;
     border-radius: 30px;
     cursor: pointer;
     border-style: hidden;
@@ -125,6 +129,547 @@ a:hover {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
 }
+
+.firstSectionNumbers {
+    display: flex;
+    padding-top: 3rem;
+    gap: 18rem;
+
+}
+
+.firstSectionNumberOneSpan {
+    color: rgb(123, 177, 0);
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.firstSectionPlus {
+    color: rgb(123, 177, 0);
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+
+/* todo hero section finished  */
+/* todo portfolio section */
+.portfolioSection {
+    margin-top: 6rem;
+}
+
+.portfolioTitle {
+    text-align: center;
+}
+
+.titlePortfolio {
+    border-bottom: 1px gray solid;
+    padding-bottom: 2%;
+}
+
+.portfolioTitleGreenLine {
+    border-bottom: 3px rgb(139, 185, 35) solid;
+    padding-bottom: 1.9%;
+
+}
+
+.portfolioTitleDiv1 {
+    /* margin-bottom: 2%; */
+    font-size: 30px;
+}
+
+.portfolioTitleNecessitatibus {
+    margin-top: 6%;
+}
+
+.portfolioTitleDivButtons {
+    display: flex;
+    gap: 17rem;
+    margin-top: 5%;
+
+}
+
+.portfolioTitleBTNS {
+    background-color: rgb(14, 16, 34);
+    border-color: white;
+    /* padding: 2% 10%; */
+    width: 7rem;
+    height: 2.5rem;
+    margin: 1%;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.portfolioTitleBTNSAll {
+    background-color: rgb(14, 16, 34);
+    padding: 1% 3%;
+    border-radius: 25px;
+    margin: 1%;
+    border-color: white;
+    font-weight: bold;
+}
+
+.portfolioTitleBTNSAll:hover {
+    background-color: rgb(139, 185, 35);
+}
+
+.portfolioTitleBTNS:hover {
+    background-color: rgb(139, 185, 35);
+
+}
+
+.portfolioTitleBTN {
+    display: flex;
+}
+
+/* ? cards div 1 */
+.portfolioCards {
+    display: flex;
+    width: 48%;
+    gap: 4%;
+    margin-top: 4rem;
+}
+
+.portfolioCardsDIVONE {
+    border-bottom: 1px grey solid;
+    padding-bottom: 7%;
+}
+
+.PraesentSapien {
+    width: 37rem;
+    padding: 1.5% 0%;
+}
+
+.portfolioTitleFirstDivCards {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.WebDesign {
+    padding: 2% 0%;
+}
+
+.DigitalInnovationPlatform {
+    font-size: 2rem;
+}
+
+.portfolioCardsReact {
+    border: 1px rgb(71, 71, 71) solid;
+    width: 4.7 rem;
+    text-align: center;
+    border-radius: 25px;
+    padding: 1% 3%;
+    background-color: rgb(24, 27, 44);
+}
+
+.portfolioCardsReact:hover {
+    color: rgb(139, 185, 35);
+}
+
+.portfolioCardsReactAWS {
+    display: flex;
+    gap: 0.5rem;
+    padding: 2.5% 0%;
+}
+
+.portfolioCardsLink {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.portfolioCardsLink:hover {
+    color: rgb(139, 185, 35);
+}
+
+.portfolioLastBTN {
+    display: flex;
+    border-top: 1PX grey solid;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+.portfolioLastBTNBegin {
+    display: flex;
+    gap: 1rem;
+}
+
+.portfolioLastButton {
+    font-weight: bold;
+    background-color: rgb(139, 185, 35);
+    border-radius: 25px;
+    width: 12rem;
+    height: 3rem;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+.portfolioLastLink {
+    text-decoration: none;
+}
+
+.portfolioLastLinks {
+    padding-top: 0.9rem;
+}
+
+.portfolioLastBTNproject {
+    padding-bottom: 1rem;
+}
+/* todo portfolio section finished */
+/* todo team section */
+.teamSectionMindsP {
+    font-size: 3rem;
+    padding: 1.5% 0%;
+}
+
+.teamSectionFirstPerson {
+    width: 100%;
+    margin-top: 8%;
+}
+
+.teamSectionFirstPersonPIC {
+    width: 100%;
+}
+
+.teamSectionFirstPersonOliviaPark {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1% 0%;
+}
+
+.teamSectionMembers {
+    display: flex;
+    width: 48%;
+    gap: 2%;
+}
+
+.teamSectionSecondFotherDiv {
+    display: flex;
+    gap: 4%;
+    margin-top: 5rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 8%;
+}
+
+.teamSectionFirstShildDiv {
+    width: 48%;
+}
+
+.teamSectionNemo {
+    font-size: 1.3rem;
+    color: rgb(107, 107, 107);
+}
+
+.teamSectionNumbers {
+    display: flex;
+    border-top: 1px gray solid;
+    margin-top: 7%;
+    padding-top: 5%;
+}
+
+.teamSectionNumberONE {
+    color: rgb(139, 185, 35);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.teamSectionNumberTwo {
+    color: rgb(139, 185, 35);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+
+}
+
+.teamSectionNumberTwoDIV {
+    border-left: 1px solid gray;
+    padding-left: 4%;
+    margin: 0% 15%;
+
+}
+
+.teamSectionLeadership {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.teamSectionLeadershipMembers {
+    display: flex;
+    gap: 1%;
+    margin-top: 1rem;
+}
+
+.teamSectionLeadershipFirstMember {
+    width: 33%;
+    border: 1px solid grey;
+}
+
+.teamSectionLeadershipFirstMemberPIC {
+    width: 100%;
+}
+
+.teamSectionOperations {
+    color: green;
+    font-weight: bold;
+    padding: 2% 0%;
+}
+
+.teamSectionRachelNguyen {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 2% 0%;
+}
+
+.RachelIcons {
+    border: 1px solid grey;
+    padding: 2% 7% 2% 3%;
+    margin-top: 1rem;
+}
+
+.teamSectionRachelNguyenInformation {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ScrolingBar {
+    background-color: grey;
+    padding: 4px 7px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.ScrolingBars {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.ScrolingBarUnique {
+    background-color: rgb(43, 242, 16);
+    padding: 0px 15px;
+    border-radius: 7px;
+    margin: 0.1px;
+}
+
+.incresflesh {
+    border: 1px grey solid;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamSectionLastDiv {
+    display: flex;
+    width: 50%;
+    gap: 20px;
+}
+
+.teamSectionLastDivFother {
+    display: flex;
+    padding: 2rem;
+    border: 1px solid grey;
+}
+
+.teamLastBTNBegin {
+    display: flex;
+    gap: 1rem;
+    /* width: 50%; */
+    padding-left: 10rem;
+}
+
+.teamLastButton {
+    font-weight: bold;
+    background-color: rgb(139, 185, 35);
+    border-radius: 25px;
+    width: 12rem;
+    height: 3rem;
+    border-style: hidden;
+    cursor: pointer;
+}
+.teamSectionGuidingOurVision{
+    font-size:30px ;
+    font-weight: bolder;
+    padding: 1rem 0rem;
+}
+/* todo team section finished */
+/* todo contact section */
+/* ! trying */
+.ContactTryingFotherDiv{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.trying{
+width: 50%;
+height: 4px;
+background-color: #a3e635;
+     
+}
+.ContactTrying{
+    display: flex;
+   justify-content: center;
+    align-items: center; 
+width: 10%;
+height: 2px;
+background-color: #444;
+ margin:1rem 0rem 2rem 0rem;
+}
+/* ! trying */
+.CONTACT-SECTION {
+    margin-top: 8rem;
+}
+
+/* .sectionContactSPAN1 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1%;
+
+}
+
+.sectionContactSPAN2 {
+    border-bottom: 3px green solid;
+    padding-bottom: 0.95%;
+
+} */
+
+.contactSection {
+    text-align: center;
+}
+
+.contactSectionTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ContactSectionEnvolope {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px gray solid;
+    /* border-bottom: 1px gray solid; */
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.ContactSectionEnvolope1 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    margin: 20px 0px;
+    padding: 35px 0px;
+}
+
+.ContactSectionDrop {
+    display: flex;
+}
+
+.contactSectionGetintouch {
+    display: flex;
+    gap: 6%;
+    margin-top: 5rem;
+}
+
+.contactSectionleftBox {
+    width: 47%;
+}
+
+.contactSectionPara {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 2% 0%;
+}
+
+.contactIcons {
+    margin: 10px 15px 0px 0px;
+}
+
+.contactIconArrow {
+    margin: 15px 0px 0px 0px;
+}
+
+.contactnumbers {
+    display: flex;
+}
+
+.contactReply {
+    color: rgb(139, 185, 35);
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.contactPorsontage {
+    margin-right: 4rem;
+
+}
+
+/* ? form */
+.contactSectionForm {
+    width: 47%;
+    /* height: 36rem; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 27, 40);
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.contactYourName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conversation {
+    padding: 15px 0px;
+    color: grey;
+}
+
+.contactYourNameInput {
+    padding: 1rem 3rem 1rem 0.9rem;
+    background-color: rgb(14, 16, 34);
+    border-radius: 6px;
+    border-color: rgb(249, 245, 245);
+    margin: 1rem 0rem;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+.ContactSubjectInput {
+    padding: 1rem 19.5rem 1rem 0.9rem;
+    background-color: rgb(14, 16, 34);
+    border-radius: 6px;
+    margin: 1rem 0rem;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    border-color: white;
+}
+
+.ContactMessageInput {
+    padding: 1rem 0rem 1rem 0.9rem;
+    background-color: rgb(14, 16, 34);
+    font-size: 0.9rem;
+    font-weight: bolder;
+     border-radius: 6px;
+     border-color: white;
+     margin: 1rem 0rem;
+}
+.contacSectionBTN{
+    background-color: rgb(139, 185, 35);
+    padding: 3% 4%;
+    border-radius: 25px;
+    border-style: hidden;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+/* todo contact section finished */
 
 /* todo about section */
 .div-section {
@@ -258,26 +803,24 @@ a:hover {
     width: 500px;
     height: 50px;
     gap: 10px;
-    background-color: rgb(120, 120, 115);
+    background-color: rgb(24, 27, 40);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     padding: 20px;
-    align-items: center;
 }
 
 .left-box {
     display: flex;
-    background-color: rgb(82, 88, 88);
+    background-color: rgb(24, 27, 40);
     border-radius: 13px;
     width: 170px;
     height: 80px;
     position: relative;
     top: -18rem;
     right: 1rem;
-    /* flex-direction:column; */
-    /* justify-content: baseline; */
     padding: 20px;
     gap: 20px;
+    
 
 }
 .about2{
@@ -308,11 +851,21 @@ a:hover {
 
 
 }
-
+.image-left-p{
+    color: gray;
+    margin-bottom: 40px;
+    font-size: small;
+    padding: 10px;
+}
+.discordmore{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+}
 
 .countainer-last-div {
     display: flex;
-    background-color: rgb(46, 60, 48);
+    background-color: rgb(29, 35, 37);
     border-radius: 5px;
     justify-content: space-between;
 }
@@ -335,7 +888,7 @@ a:hover {
 }
 
 .right-box1 {
-    background-color: rgb(73, 72, 75);
+    background-color: rgb(24, 27, 40);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,11 +896,9 @@ a:hover {
     border-radius: 13px;
     width: 170px;
     height: 110px;
-    /* padding-right: 50px; */
-    /* padding-bottom: 100px */
     position: relative;
-    top: -6rem;
-    left: 11rem;
+    top: -11rem;
+    left: 22rem;
 
 
 }
@@ -356,8 +907,16 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
-    /* margin-bottom: 30px; */
+    position: relative;
+    bottom: -10px;
+}
+.image-left-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -10px;
+    left: 13px;
 }
 
 .rightBoxPicturs {
@@ -433,9 +992,9 @@ a:hover {
 .parag1{
     color: rgb(141, 143, 146);
     font-weight: bold;
-    margin-left: 2px;
+    margin-top: 25px ;
 }
-.num{
+.num {
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -443,11 +1002,7 @@ a:hover {
     padding-top: 5px; 
     padding: 10px;
 }
-p{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
+
 
 
 .countainer-div-grand{
@@ -475,21 +1030,23 @@ p{
 .countainer-service5{
     border-bottom: 1px solid;
     color: rgb(35, 37, 54) ;
-    position: relative;
 }
 
-.countainer-service{
+.countainer-service6{
     border-bottom: 1px solid;
     color: rgb(35, 37, 54);
     position: relative;
-    left: 40px;
+    right: -7px;
+}
+.paragraphe-about{
+    color: white;
 }
 
-
-a{
-    display: flex;
-    font-weight: bold;
+.discover{
     text-decoration: none;
+    color: white;
+     margin-top: 25px;
+
 }
 
 .countainer-button{
@@ -538,6 +1095,8 @@ a{
 .parag{
 padding-left: 50px;
 color:rgb(141, 143, 146);
+    margin-top: 25px;
+
 }
 .h1-div5{
     padding-left: 30px;
@@ -545,6 +1104,10 @@ color:rgb(141, 143, 146);
 .parag-div5{
     padding-left: 30px;
     color: gray;
+    gap: 30px;
+     margin-top: 25px;
+
+
 }
 .neben5{
     padding-left: 30px;
@@ -586,6 +1149,10 @@ color:rgb(141, 143, 146);
 .countainer-whyus{
     display: flex;
     justify-content: space-between;
+}
+.link{
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -705,8 +1272,21 @@ padding: 50px;
 .icone-Cards1{
     display: flex;
     position: relative;
-    right: 220px;
-    bottom: -40px;
+    right: 200px;
+    bottom: -8px;
+}
+.testimonial-paragraphe{
+    color: gray;
+    position: relative;
+    bottom: 20px;
+    
+}
+.titre-tetst-mo{
+    display: flex;
+    margin: 30px;
+}
+.paragraphe-testimonials-2{
+    color: gray;
 }
 .paragraphe-Cards1{
     color: gray;
@@ -780,6 +1360,7 @@ padding: 50px;
     gap: 20px;
     margin-top: 30px;
 }
+/* !footer  */
 .first-div-footer{
     display: flex;
     gap: 40px;
@@ -798,6 +1379,128 @@ padding: 50px;
     justify-content: center;
     align-items: center;
 }
+.phone{
+    display: flex;
+    gap: 10px;
+
+}
+.ph1{
+    color: gray;
+}
+.first-div-child1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -90px;
+    gap:55px;
+}
+.foter-paragraphe1{
+    color: gray;
+}
+
+.Email{
+    display: flex;
+    gap: 10px;
+}
+.link-footr{
+    color: gray;
+    text-decoration: none;
+}
+h6{
+    font-size: 20px;
+}
+
+.fo-li{
+    border-bottom: 3px solid rgb(94, 153, 6);
+}
+.second-div-child2{
+    display: flex;
+    flex-direction: column;
+     position: relative;
+    bottom: -20px;
+    padding: 70px;
+    gap: 30px;
+
+}
+
+.second-div-footer-father{
+    display: flex;
+    background-color: rgb(13, 15, 34);
+}
+
+.our{
+    border-bottom: 3px solid green;
+}
+.third-div-child3{
+
+     display: flex;
+    flex-direction: column;
+     position: relative;
+    bottom: -20px;
+    padding: 70px;
+    gap: 30px;
+}
+.hic{
+    border-bottom: 3px solid green;
+}
+.div-child4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -20px;
+    padding: 70px;
+    gap: 30px;
+}
+.no{
+    border-bottom: 3px solid green;
+}
+.div-child5{
+     display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -20px;
+    padding: 70px;
+    gap: 30px;
+
+}
+.bootstrap{
+    color: #a3e635;
+}
+.last-div-footer{
+    margin-top: 30px;
+    display: flex;
+
+}
+.Icones-Footr{
+    display: flex;
+    position: relative;
+    left: 800px;
+    gap: 6px;
+
+}
+.Footer-Icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(48, 47, 45);
+}
+.Footer-Green-Icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: #a3e635;
+    position: relative;
+    left: 860px;
+    bottom: -10px;
+}
+
+
 
 
 
